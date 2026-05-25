@@ -1,6 +1,53 @@
-﻿  IHaveCollision.cpp
+﻿  Bullet.cpp
+D:\Vis Stud Proj\Проекты ВУЗа\The-Game-Deeply-Inspiered-By-Space-Invaders\The Game Deeply Inspiered By Space Invaders\Constants.h(22,45): warning C4305: инициализация: усечение из "double" в "const float"
+  BulletPool.cpp
+D:\Vis Stud Proj\Проекты ВУЗа\The-Game-Deeply-Inspiered-By-Space-Invaders\The Game Deeply Inspiered By Space Invaders\Constants.h(22,45): warning C4305: инициализация: усечение из "double" в "const float"
+  Character.cpp
+D:\Vis Stud Proj\Проекты ВУЗа\The-Game-Deeply-Inspiered-By-Space-Invaders\The Game Deeply Inspiered By Space Invaders\Constants.h(22,45): warning C4305: инициализация: усечение из "double" в "const float"
+D:\Vis Stud Proj\Проекты ВУЗа\The-Game-Deeply-Inspiered-By-Space-Invaders\The Game Deeply Inspiered By Space Invaders\Character.cpp(23,17): warning C4244: -=: преобразование "float" в "int", возможна потеря данных
+  Enemy.cpp
+D:\Vis Stud Proj\Проекты ВУЗа\The-Game-Deeply-Inspiered-By-Space-Invaders\The Game Deeply Inspiered By Space Invaders\Constants.h(22,45): warning C4305: инициализация: усечение из "double" в "const float"
+D:\Vis Stud Proj\Проекты ВУЗа\The-Game-Deeply-Inspiered-By-Space-Invaders\The Game Deeply Inspiered By Space Invaders\Enemy.cpp(7,46): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  EnemyController.cpp
+D:\Vis Stud Proj\Проекты ВУЗа\The-Game-Deeply-Inspiered-By-Space-Invaders\The Game Deeply Inspiered By Space Invaders\Constants.h(22,45): warning C4305: инициализация: усечение из "double" в "const float"
+D:\Vis Stud Proj\Проекты ВУЗа\The-Game-Deeply-Inspiered-By-Space-Invaders\The Game Deeply Inspiered By Space Invaders\EnemyController.cpp(38,27): warning C4267: -=: преобразование из "size_t" в "int"; возможна потеря данных
+  Player.cpp
+D:\Vis Stud Proj\Проекты ВУЗа\The-Game-Deeply-Inspiered-By-Space-Invaders\The Game Deeply Inspiered By Space Invaders\Constants.h(22,45): warning C4305: инициализация: усечение из "double" в "const float"
+  PlayerController.cpp
+D:\Vis Stud Proj\Проекты ВУЗа\The-Game-Deeply-Inspiered-By-Space-Invaders\The Game Deeply Inspiered By Space Invaders\Constants.h(22,45): warning C4305: инициализация: усечение из "double" в "const float"
+  Resetter.cpp
+D:\Vis Stud Proj\Проекты ВУЗа\The-Game-Deeply-Inspiered-By-Space-Invaders\The Game Deeply Inspiered By Space Invaders\Constants.h(22,45): warning C4305: инициализация: усечение из "double" в "const float"
+  main.cpp
+D:\Vis Stud Proj\Проекты ВУЗа\The-Game-Deeply-Inspiered-By-Space-Invaders\The Game Deeply Inspiered By Space Invaders\Constants.h(22,45): warning C4305: инициализация: усечение из "double" в "const float"
+D:\Vis Stud Proj\Проекты ВУЗа\The-Game-Deeply-Inspiered-By-Space-Invaders\The Game Deeply Inspiered By Space Invaders\main.cpp(29,22): warning C4834: отмена возвращаемого значения функции с атрибутом "nodiscard"
+D:\Vis Stud Proj\Проекты ВУЗа\The-Game-Deeply-Inspiered-By-Space-Invaders\The Game Deeply Inspiered By Space Invaders\main.cpp(37,79): warning C4244: аргумент: преобразование "unsigned int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\Vis Stud Proj\Проекты ВУЗа\The-Game-Deeply-Inspiered-By-Space-Invaders\The Game Deeply Inspiered By Space Invaders\main.cpp(42,55): warning C4244: аргумент: преобразование "unsigned int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\Vis Stud Proj\Проекты ВУЗа\The-Game-Deeply-Inspiered-By-Space-Invaders\The Game Deeply Inspiered By Space Invaders\main.cpp(58,151): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\Vis Stud Proj\Проекты ВУЗа\The-Game-Deeply-Inspiered-By-Space-Invaders\The Game Deeply Inspiered By Space Invaders\main.cpp(58,85): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\Vis Stud Proj\Проекты ВУЗа\The-Game-Deeply-Inspiered-By-Space-Invaders\The Game Deeply Inspiered By Space Invaders\main.cpp(63,84): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ]
   Создание кода
-  Previous IPDB and IOBJ mismatch, fall back to full compilation.
-  All 615 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  2 of 602 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
-  The Game Deeply Inspiered By Space Invaders.vcxproj -> D:\Vis Stud Proj\Проекты ВУЗа\The Game Deeply Inspiered By Space Invaders\x64\Release\The Game Deeply Inspiered By Space Invaders.exe
+  The Game Deeply Inspiered By Space Invaders.vcxproj -> D:\Vis Stud Proj\Проекты ВУЗа\The-Game-Deeply-Inspiered-By-Space-Invaders\x64\Release\The Game Deeply Inspiered By Space Invaders.exe

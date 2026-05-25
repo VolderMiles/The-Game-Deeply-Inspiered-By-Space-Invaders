@@ -55,7 +55,7 @@ int main() {
         welcome_sprites.emplace_back(sf::Sprite(texture));
         welcome_sprites.back().scale({ SCALE_FACTOR, SCALE_FACTOR });
         welcome_sprites.back().setTextureRect(sf::IntRect({ PIXELS_PER_UNIT * i, 0 }, { PIXELS_PER_UNIT, PIXELS_PER_UNIT }));
-        welcome_sprites.back().setPosition(sf::Vector2f(points_text.getPosition().x - SCALE_FACTOR * PIXELS_PER_UNIT*1.5, points_text.getPosition().y + i * SCALE_FACTOR * PIXELS_PER_UNIT*2)); // tweak
+        welcome_sprites.back().setPosition(sf::Vector2f(points_text.getPosition().x - SCALE_FACTOR * PIXELS_PER_UNIT*1.5, points_text.getPosition().y + i * SCALE_FACTOR * PIXELS_PER_UNIT*1.5));
     }
     // Game Over Screen
     sf::Text game_over_text = sf::Text(font, "Game Over");
@@ -123,7 +123,7 @@ int main() {
             enemyController->Update(time);
             bullet_pool->Update(time);
 
-            fps_text.setString("FPS: " + std::to_string(1 / time));
+            fps_text.setString("FPS: " + std::to_string((int)(1 / time)));
             hp_text.setString("Hp: " + std::to_string(player->getHP()));
             
             if (player->getHP() <= 0) {
